@@ -1,0 +1,55 @@
+Server listening on 0.0.0.0 port 2200.
+Connection from 10.3.1.101 port 46788 on 172.17.0.41 port 2200 rdomain ""
+Failed publickey for frappe from 10.3.1.101 port 46788 ssh2: RSA SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Postponed publickey for frappe from 10.3.1.101 port 46788 ssh2 [preauth]
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Accepted publickey for frappe from 10.3.1.101 port 46788 ssh2: RSA-CERT SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA ID deploy-4199-000350 (serial 0) CA RSA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI
+User child is on pid 2833
+Attempt to write login records by non-root user (aborting)
+Starting session: command on pts/0 for frappe from 10.3.1.101 port 46788 id 0
+Connection from 10.3.1.101 port 56540 on 172.17.0.41 port 2200 rdomain ""
+Failed publickey for frappe from 10.3.1.101 port 56540 ssh2: RSA SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Postponed publickey for frappe from 10.3.1.101 port 56540 ssh2 [preauth]
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Accepted publickey for frappe from 10.3.1.101 port 56540 ssh2: RSA-CERT SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA ID deploy-4199-000350 (serial 0) CA RSA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI
+User child is on pid 3016
+Attempt to write login records by non-root user (aborting)
+Starting session: command on pts/1 for frappe from 10.3.1.101 port 56540 id 0
+Connection from 10.3.1.101 port 51184 on 172.17.0.41 port 2200 rdomain ""
+Failed publickey for frappe from 10.3.1.101 port 51184 ssh2: RSA SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Postponed publickey for frappe from 10.3.1.101 port 51184 ssh2 [preauth]
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Accepted publickey for frappe from 10.3.1.101 port 51184 ssh2: RSA-CERT SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA ID deploy-4199-000350 (serial 0) CA RSA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI
+User child is on pid 3195
+Attempt to write login records by non-root user (aborting)
+Starting session: command on pts/2 for frappe from 10.3.1.101 port 51184 id 0
+Connection from 10.3.1.101 port 38132 on 172.17.0.41 port 2200 rdomain ""
+Failed publickey for frappe from 10.3.1.101 port 38132 ssh2: RSA SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Postponed publickey for frappe from 10.3.1.101 port 38132 ssh2 [preauth]
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Accepted publickey for frappe from 10.3.1.101 port 38132 ssh2: RSA-CERT SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA ID deploy-4199-000350 (serial 0) CA RSA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI
+User child is on pid 3388
+Attempt to write login records by non-root user (aborting)
+Starting session: command on pts/3 for frappe from 10.3.1.101 port 38132 id 0
+Connection from 10.3.1.101 port 35830 on 172.17.0.41 port 2200 rdomain ""
+Failed publickey for frappe from 10.3.1.101 port 35830 ssh2: RSA SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Postponed publickey for frappe from 10.3.1.101 port 35830 ssh2 [preauth]
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Accepted publickey for frappe from 10.3.1.101 port 35830 ssh2: RSA-CERT SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA ID deploy-4199-000350 (serial 0) CA RSA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI
+User child is on pid 3578
+Attempt to write login records by non-root user (aborting)
+Starting session: command on pts/4 for frappe from 10.3.1.101 port 35830 id 0
+Connection from 10.3.1.101 port 52626 on 172.17.0.41 port 2200 rdomain ""
+Failed publickey for frappe from 10.3.1.101 port 52626 ssh2: RSA SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Postponed publickey for frappe from 10.3.1.101 port 52626 ssh2 [preauth]
+Accepted certificate ID "deploy-4199-000350" (serial 0) signed by RSA CA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI via /home/frappe/frappe-bench/config/ssh/ca.pub
+Accepted publickey for frappe from 10.3.1.101 port 52626 ssh2: RSA-CERT SHA256:wP7LuGLCDPPXegfLLEJYvaMB/Dy7LPhg2H+v+FLQAyA ID deploy-4199-000350 (serial 0) CA RSA SHA256:H/PwP8gTO+dzym8wu4Df2MoiWdziG2Plb8nXF45eflI
+User child is on pid 3751
+Attempt to write login records by non-root user (aborting)
+Starting session: command on pts/5 for frappe from 10.3.1.101 port 52626 id 0

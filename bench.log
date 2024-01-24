@@ -1,0 +1,8 @@
+2024-01-23 12:43:35,614 INFO /home/frappe/.local/bin/bench worker --queue short,default
+2024-01-23 12:43:35,614 INFO /home/frappe/.local/bin/bench worker --queue long,default,short
+2024-01-23 12:43:35,614 INFO /home/frappe/.local/bin/bench schedule
+2024-01-23 12:43:50,653 INFO /home/frappe/.local/bin/bench --site uat-jutemarkindia.frappe.cloud execute frappe.website.doctype.website_theme.website_theme.generate_theme_files_if_not_exist
+2024-01-23 12:43:52,222 INFO /home/frappe/.local/bin/bench --site uat-jutemarkindia.frappe.cloud set-maintenance-mode off
+2024-01-23 18:17:35,559 INFO /home/frappe/.local/bin/bench --site uat-jutemarkindia.frappe.cloud backup
+2024-01-23 23:05:57,676 INFO /home/frappe/.local/bin/bench --site uat-jutemarkindia.frappe.cloud execute frappe.utils.get_site_info
+2024-01-24 00:31:22,598 INFO /home/frappe/.local/bin/bench --site uat-jutemarkindia.frappe.cloud backup --with-files

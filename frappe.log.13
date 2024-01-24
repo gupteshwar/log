@@ -1,0 +1,1545 @@
+2024-01-24 05:11:38,848 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:11:38,850 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:11:38,851 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:11:38,851 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:11:38,876 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:11:38,876 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:11:38,877 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:11:38,877 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,735 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,741 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,742 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,742 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,742 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,742 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,743 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,743 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,743 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,743 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,744 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,843 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,844 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,845 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,845 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,845 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,845 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,846 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,846 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,846 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,846 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:45,847 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,762 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,763 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,763 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,764 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,764 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,764 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,764 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,765 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,765 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,765 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,765 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,910 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,912 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,912 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,912 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,913 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,913 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,913 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,914 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,914 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,914 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:46,914 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,280 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,281 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,284 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,299 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,302 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,303 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,303 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,303 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,303 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,304 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,304 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,426 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,428 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,428 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,428 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,428 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,429 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,429 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,430 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,431 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,431 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:14:47,431 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,291 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,293 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,293 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,293 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,293 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,294 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,294 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,294 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,294 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,294 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,294 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,295 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,296 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,296 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:46,296 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:47,032 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:47,033 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:47,033 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:47,034 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:47,034 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:47,034 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2024-01-24 05:15:47,035 ERROR frappe Unable to load translations
+Site: None
+Form Dict: None
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound

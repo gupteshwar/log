@@ -1,0 +1,413 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/handlers.py", line 74, in emit
+    self.doRollover()
+  File "/usr/lib/python3.10/logging/handlers.py", line 174, in doRollover
+    os.remove(dfn)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/frappe/frappe-bench/logs/frappe.log.20'
+Call stack:
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 269, in start_worker
+    worker.work(
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 410, in work
+    self.execute_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1212, in execute_job
+    self.fork_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1117, in fork_work_horse
+    self.main_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1250, in main_work_horse
+    self.perform_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1418, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1225, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1262, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 177, in execute_job
+    frappe.connect(site)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 270, in connect
+    from frappe.database import get_db
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database/__init__.py", line 7, in <module>
+    from frappe.database.database import savepoint
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database/database.py", line 28, in <module>
+    from frappe.model.utils.link_count import flush_local_link_count
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/__init__.py", line 152, in <module>
+    {"fieldname": "docstatus", "fieldtype": "Int", "label": _("Document Status")},
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 114, in _
+    all_translations = get_all_translations(lang)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 299, in get_all_translations
+    frappe.logger().error("Unable to load translations", exc_info=True)
+Message: 'Unable to load translations\nSite: None\nForm Dict: None'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/handlers.py", line 74, in emit
+    self.doRollover()
+  File "/usr/lib/python3.10/logging/handlers.py", line 174, in doRollover
+    os.remove(dfn)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/frappe/frappe-bench/logs/frappe.log.20'
+Call stack:
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 269, in start_worker
+    worker.work(
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 410, in work
+    self.execute_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1212, in execute_job
+    self.fork_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1117, in fork_work_horse
+    self.main_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1250, in main_work_horse
+    self.perform_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1418, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1225, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1262, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 177, in execute_job
+    frappe.connect(site)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 270, in connect
+    from frappe.database import get_db
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database/__init__.py", line 7, in <module>
+    from frappe.database.database import savepoint
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database/database.py", line 28, in <module>
+    from frappe.model.utils.link_count import flush_local_link_count
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/__init__.py", line 138, in <module>
+    {"fieldname": "owner", "fieldtype": "Link", "label": _("Created By"), "options": "User"},
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 114, in _
+    all_translations = get_all_translations(lang)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 299, in get_all_translations
+    frappe.logger().error("Unable to load translations", exc_info=True)
+Message: 'Unable to load translations\nSite: None\nForm Dict: None'
+Arguments: ()
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/handlers.py", line 74, in emit
+    self.doRollover()
+  File "/usr/lib/python3.10/logging/handlers.py", line 174, in doRollover
+    os.remove(dfn)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/frappe/frappe-bench/logs/frappe.log.20'
+Call stack:
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 269, in start_worker
+    worker.work(
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 410, in work
+    self.execute_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1212, in execute_job
+    self.fork_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1117, in fork_work_horse
+    self.main_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1250, in main_work_horse
+    self.perform_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1418, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1225, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1262, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 177, in execute_job
+    frappe.connect(site)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 270, in connect
+    from frappe.database import get_db
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database/__init__.py", line 7, in <module>
+    from frappe.database.database import savepoint
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database/database.py", line 28, in <module>
+    from frappe.model.utils.link_count import flush_local_link_count
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/__init__.py", line 148, in <module>
+    {"fieldname": "_user_tags", "fieldtype": "Data", "label": _("Tags")},
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 114, in _
+    all_translations = get_all_translations(lang)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 299, in get_all_translations
+    frappe.logger().error("Unable to load translations", exc_info=True)
+Message: 'Unable to load translations\nSite: None\nForm Dict: None'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 295, in get_all_translations
+    return frappe.cache().hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 185, in hget
+    _name = self.make_key(name, shared=shared)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 31, in make_key
+    return f"{frappe.conf.db_name}|{key}".encode()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 490, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/handlers.py", line 74, in emit
+    self.doRollover()
+  File "/usr/lib/python3.10/logging/handlers.py", line 175, in doRollover
+    os.rename(sfn, dfn)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/frappe/frappe-bench/logs/frappe.log.17' -> '/home/frappe/frappe-bench/logs/frappe.log.18'
+Call stack:
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 269, in start_worker
+    worker.work(
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 410, in work
+    self.execute_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1212, in execute_job
+    self.fork_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1117, in fork_work_horse
+    self.main_work_horse(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1250, in main_work_horse
+    self.perform_job(job, queue)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1412, in perform_job
+    self.prepare_job_execution(job)
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1286, in prepare_job_execution
+    self.procline(msg.format(job.func_name, job.origin, time.time()))
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 483, in func_name
+    self._deserialize_data()
+  File "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 449, in _deserialize_data
+    self._func_name, self._instance, self._args, self._kwargs = self.serializer.loads(self.data)
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 7, in <module>
+    import frappe.permissions
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 7, in <module>
+    import frappe.share
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/share.py", line 8, in <module>
+    from frappe.desk.doctype.notification_log.notification_log import (
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 6, in <module>
+    from frappe.desk.doctype.notification_settings.notification_settings import (
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/desk/doctype/notification_settings/notification_settings.py", line 5, in <module>
+    from frappe.model.document import Document
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/__init__.py", line 148, in <module>
+    {"fieldname": "_user_tags", "fieldtype": "Data", "label": _("Tags")},
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 114, in _
+    all_translations = get_all_translations(lang)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/translate.py", line 299, in get_all_translations
+    frappe.logger().error("Unable to load translations", exc_info=True)
+Message: 'Unable to load translations\nSite: None\nForm Dict: None'
+Arguments: ()
